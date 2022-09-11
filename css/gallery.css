@@ -1,0 +1,155 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 3rem;
+  }
+  h1 {
+    color: coral;
+  }
+  .grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+    .common{
+      width: 150px;
+      margin: 0 1.5rem 1.5rem 0;
+      display: inline-block;
+      width: 100%;
+      border: solid 2px black;
+      padding: 5px;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+    }
+      .common:hover img{filter: grayscale(0);}
+      .common:hover{border-color: coral;}
+
+      .grid-item{
+        width: 100%;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+      }
+      .par {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-style: italic;
+      }
+  
+  
+
+      @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Prompt:wght@100;200&family=Roboto+Mono:wght@100&display=swap');
+      *{
+          font-family: 'Roboto Mono', monospace;
+          font-weight: bolder;
+          margin: 0;
+          padding: 0;
+          background-color: black;
+          color: white;
+          text-decoration: none;
+      }
+      .logo{
+      width: 1.2rem;
+      height: auto;
+      float: left;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+      }
+      .mine{
+      padding: 0.6rem;
+      font-size: small;
+      }
+      .one{
+      background-color: #00CA4E;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      margin-right: 0.8rem;
+      color: #00CA4E;
+      overflow: hidden;
+      }
+      .two{
+      background-color: #FFBD44;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      margin-right: 0.8rem;
+      color: #FFBD44;
+      overflow: hidden;
+      }
+      .three {
+      background-color: #FF605C;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      margin-right: 0.8rem;
+      color: #FF605C;
+      overflow: hidden;
+      }
+      .tray{
+      display: flex;
+      float:right;
+      margin-top: -1.6rem;
+      margin-right: 0.5rem;
+      }
+      .tray :hover{
+      cursor:pointer;
+      }
+      header:hover footer:hover{
+          cursor: default;
+      }
+      p{
+          padding-bottom: 10px;
+          font-size: 0.8rem;
+          margin-left: 1rem;
+      }
+      .imp_info{
+          color: #0096FF ;
+          text-decoration: none;
+          font-size: 0.9rem;
+      }
+      .tagged{
+      
+          padding-bottom: 5px;
+          margin-left: 1rem;
+          color: rgb(40, 181, 40);
+          font-size: 1rem;
+      }
+      .website:hover{
+      text-decoration: underline ; 
+      }
+      .head{
+          color: #FF605C;
+      }
+      .command{
+          color: rgb(219, 41, 219);
+      }
+      .fixed_header{
+          position: fixed;
+          width: 100%;
+          top: 0;
+      }
+      .fixed_footer{
+          position: fixed;
+          width: 100%;
+          height: 3rem;
+          bottom: 0;
+          background-color: black;
+      }
+      .foot_nav{
+          display: flex;
+          justify-content: center;
+      }
+      .foot_logo{
+      width: auto;
+      height: 2rem;
+      float: left;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+      }
+  
