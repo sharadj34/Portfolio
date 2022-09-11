@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(/images/blog_bg.jpg) ;
+    background-image: url(../images/blog_bg.jpg) ;
     background-position:center;
     background-size: cover;
     background-repeat:repeat-y;
