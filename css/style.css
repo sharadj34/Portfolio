@@ -61,14 +61,14 @@ main{
     margin: 3rem 2rem 2rem 5px;
 }
 p{
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
     font-size: 0.8rem;
     margin-left: 1rem;
 }
 .imp_info{
     color: #0096FF ;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 .tagged{
 
