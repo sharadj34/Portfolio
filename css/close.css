@@ -39,7 +39,7 @@ body {   font-family: Helvetica, san-serif;
 .card:hover h2 small { color: #fff }
 .card:hover p { margin-top: 300px }
 .card_circle {
-    background: url('https://i.picsum.photos/id/1029/4887/2759.jpg?hmac=uMSExsgG8_PWwP9he9Y0LQ4bFDLlij7voa9lU9KMXDE') no-repeat center bottom;
+    background: url('https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center bottom;
     background-color: #3487f7 ;
     background-size: cover;
     border-radius: 50%;
