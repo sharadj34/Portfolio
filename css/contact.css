@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(../images/bg11.jpg) ;
+    background-position: center;
+    background-repeat:repeat-y;
+    height: fit-content;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size:15px;
+
+  background-size: cover;
+  overflow: hidden;
+  padding-right: 50px
+}
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(40, 40, 45, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+main{
+    text-align: right;
+}
+.logo{
+width: 1.2rem;
+height: auto;
+float: left;
+margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.navbar{
+    background-color: black;
+}
+.mine{
+padding: 0.7rem;
+font-size: small;
+color: white;
+}
+.one{
+background-color: #00CA4E;
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+margin-right: 0.8rem;
+color: #00CA4E;
+overflow: hidden;
+}
+.two{
+background-color: #FFBD44;
+width: 1rem;
+height: 1rem;
+border-radius: 50%;
+margin-right: 0.8rem;
+color: #FFBD44;
+overflow: hidden;
+}
+.three {
+background-color: #FF605C;
+width: 1em;
+height: 1em;
+border-radius: 50%;
+margin-right: 0.8rem;
+color: #FF605C;
+overflow: hidden;
+}
+.tray{
+display: flex;
+float:right;
+margin-top: -1.6rem;
+margin-right: 0.5rem;
+}
+.tray :hover{
+cursor:pointer;
+}
+header:hover{
+    cursor: default;
+}
+.fixed_header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.btn{
+    text-align: center;
+    color: white;
+    background-color: #ed6b5b;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: large;
+    border-color: #ed6b5b;
+}
+
+.fixed_footer{
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    bottom: 0;
+    background-color: black;
+}
+.foot_nav{
+    display: flex;
+    justify-content: center;
+}
+.foot_logo{
+width: auto;
+height: 2rem;
+float: left;
+margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+@media screen and (max-width: 680px){
+    .card{
+    flex-direction: column;
+    }
+}
+@media screen and (max-width: 420px){
+    .heading{
+        font-size: 35px
+    }
+}
+
+
+
+a{
+    color:inherit
+  }
+  h1 {
+    width: 100%;
+    margin: 40vh 0 3vh 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    transition:all 0.4s
+  }
+  h1:hover{
+    color:#08c
+  }
+  i {
+    display: block;
+    width: 100%;
+    margin-bottom: 4vh;
+    font-size:1em
+  }
+  
+  .fa {
+    display: inline-block;  
+    color: inherit;
+    text-decoration: none;
+    padding-top: 12px;
+    height: 4rem;
+    text-align: center;
+    margin-left: 1em;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.4s;
+  }
